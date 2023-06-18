@@ -1,0 +1,745 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 110px;
+    /* background-color: aquamarine; */
+}
+.brand h1{
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.cont{
+    width: 33.33%;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+.righthead{
+    display: flex;
+    justify-content: center;
+}
+.cc{
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.cc a{
+    color: #333;
+}
+.cart:hover .carthov{
+    display: block;
+   
+}
+.carthov:hover .carthov{
+    display: block;
+}
+.carthov{
+    position: absolute;
+    top: 50px;
+    right: 110px;
+    z-index: 2;
+    height: 300px;
+    width: 270px;
+    /* border: 1px solid red; */
+   
+    background-color: white;
+    display: none;
+    box-shadow: 3px 3px 10px grey;
+}
+.space{
+    display: flex;
+    border: 2px solid grey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+}
+.sp{
+    border: none;
+    display: block;
+}
+.cartpic{
+    height: 80px;
+    width: 70px;
+    /* border: 1px solid green; */
+}
+.cartpic img{
+    cursor: pointer;
+    height: 80px;
+    width: 70px;
+}
+.cartdata{
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    text-align: start;
+    line-height:20px;
+}
+.cartdata span,h5{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:300;
+}
+.cut{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;   
+}
+.space .cut p{
+    font-size: 17px;
+}
+.total p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+.total{
+    display: flex;
+}
+.total span{
+    font-weight: bold;
+}
+.spbt{
+    display: flex;
+    margin-top: 20px;
+}
+.low{
+    height: 25px;
+    width: 120px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+.flow{
+    height: 25px;
+    width: 120px;
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+.flow:hover{
+   background-color: black;
+   color: white;
+}
+.container p{
+    font-size: 14px;
+    color: #333;
+}
+.brand a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+/* .brand h1{
+    margin-bottom: 0px;
+} */
+
+.searchdiv{
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    height: 30px;
+    width: 150px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    background-color: white;
+    box-shadow: 1px 1px 9px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.searchdiv input{
+    height: 30px;
+    width: 150px;
+}
+.search:hover .searchdiv{
+    display: block;
+}
+hr{
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* -------------------------NAVBAR---------------------- */
+.navbar{
+    position: relative;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.navbar li{
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.navbar li a{
+    color: #333;
+}
+a{
+    text-decoration: none;
+}
+
+/* *************SHOP HOVER ******* */
+.shophov{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 15px;
+    z-index: 3;
+    box-shadow: 2px 2px 12px #dfd6d6;
+    visibility: hidden;
+    
+    /* display: flex; */
+}
+.shopper:hover .shophov{
+    visibility: visible;
+}
+.shop1{
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;   
+}
+.shop1 li{
+    border-bottom: 2px solid grey;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+    margin-right: 20px;
+}
+.shop2{
+    display: flex;
+    font-size: 10px;
+}
+.shop2 a{
+    font-size: 15px;
+}
+.shop2 li a:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+/************ PAGE HOVER ************ */
+.pagehover{
+    height: 100px;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    z-index: 4;
+    visibility: hidden;
+    box-shadow: 2px 2px 12px #dfd6d6;
+}
+.pagehover ul{
+    display: block;
+    padding-top: 20px;
+    text-align: start;
+}
+.pagehover ul a{
+    /* border: 2px solid red; */
+    line-height: 35px;
+    font-size: 17px;
+    text-align: center;
+} 
+.pagehover ul a:hover{
+    background-color: black;
+    color: white;
+}
+.pagess:hover .pagehover{
+    visibility: visible;
+}
+
+/* *************BLOG HOVER ********* */
+
+.blogerhov{
+    height: 70px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    left: 700px;
+    z-index: 3;
+    visibility: hidden;
+    box-shadow: 2px 2px 12px #dfd6d6;
+}
+.blogerhov ul{
+    padding-top: 20px;
+}
+.blogerhov ul li a{
+    text-align: start;
+    margin-right: 50px;
+    font-size: 17px ;
+}
+.blogerhov a:hover{
+    background-color: black;
+    color: white;
+}
+.bloger:hover .blogerhov{
+    visibility: visible;
+}
+
+
+
+
+
+/*--------------------- HOME------------------- */
+.backg{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 30px;
+    background-image: url(../MAIN_PROJECT/images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.overly{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.6;
+    /* position: relative; */
+    z-index: 1;
+}
+.promo{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    /* padding: 20px; */
+    /* border: 1px solid red; */
+    color: white;
+    /* z-index: 2; */
+    
+}
+.product{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.afpr{
+    font-size: 28px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.promo button{
+    height: 45px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.probtn:hover{
+    background-color: white;
+    color: black;
+}
+.turn{
+    display: flex;
+   
+    
+}
+.leftturn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 270px;
+    left: 20px;
+}
+.lt:hover{
+    color: white;
+    background-color: black;
+}
+.rightturn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    /* margin-left:80%; */
+    position: absolute;
+    top: 270px;
+    right: 20px;
+}
+.bt3 button{
+    height: 7px;
+    width: 7px;
+    border:none;
+    padding-top: 5px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.6;
+    margin-left: 20px;
+}
+.bt3{
+    text-align:center;
+    /* margin-top: 5px; */
+}
+.bt3 .bt31{
+    background-color: black;
+    opacity: 1;
+}
+.bt3 button:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 1;
+}
+.category{
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.cathead{
+    text-align: center;
+    
+    font-weight: 100;
+}
+.allbox{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 30px;
+    width: 1170px;
+    display: flex;
+}
+.boxes{
+    height: 750px;
+    width: 50%;
+}
+.twobox{
+    height: 364px;
+    overflow: hidden;
+    position: relative;
+    
+    /* border: 1px solid green; */
+}
+.tb{
+    margin-bottom: 20px;
+}
+.largebox{
+    height:750px;
+    /* border: 1px solid blue; */
+    position: relative;
+    left: 50px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.catimg img{
+    height: 362px;
+    width: 100%;
+    /* margin-right: 10px; */
+}
+.pchead{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    line-height: 25px;
+}
+.twobox:hover .catimg{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+}
+.catlimg img{
+    height: 700px;
+    width: 100%;
+}
+.largebox:hover .catlimg{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.5s;
+}
+.lghead{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.ppp p{
+    font-size: 13px;
+}
+.bggrey{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(204, 194, 194);
+}
+
+/*--------------------- TRENDY/SHOP----------------- */
+#trendy{
+    /* margin-top: 100px; */
+    height: 1900px;
+    width: 100%;
+    background-color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+}
+.headingg h1{
+    text-align: center;
+    padding-top: 100px;
+    /* border: 1px solid rebeccapurple; */
+
+}
+.trendyboxes{
+    display: flex;
+    justify-content:center;
+}
+.trebox{
+    height: 500px;
+    width: 360px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    margin-left: 30px;
+    position: relative;
+    
+}
+.treimg{
+    position: relative;
+}
+.treimg img{
+    height: 400px;
+    width: 360px;
+}
+.imgcontent{
+    text-align: center;
+    margin-top: 18px;
+    line-height: 25px;
+}
+.imgcontent span{
+    font-size: 20px;
+}
+.treoverlay1{
+    height:400px;
+    width: 360px;
+    background-color: #333;
+    opacity: 0.5;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 0px;
+    z-index: 2;
+    /* display: none; */
+    visibility: hidden;
+}
+.wish{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    justify-content: center;
+    width: 75%;
+    z-index: 3;
+    /* display: none; */
+    visibility: hidden;
+}
+.trewish{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.trebox:hover .treoverlay1{
+    visibility: visible;
+}
+.trebox:hover .wish{
+    bottom: 20px;
+    visibility: visible;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.trewish:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.treoverlay2{
+    height:0px;
+    width: 360px;
+    background-color: #333;
+    opacity: 0.5;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 0px;
+    z-index: 2;
+    /* display: none; */
+    visibility: hidden;
+}
+.trebox:hover .treoverlay2{
+    height: 400px;
+    transition-duration: 1s;
+    visibility: visible;
+}
+.treoverlay3{
+    height: 0px;
+    width: 360px;
+    background-color: #333;
+    opacity: 0.5;
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 100px;
+    z-index: 2;
+    /* display: none; */
+    visibility: hidden;
+}
+.trebox:hover .treoverlay3{
+    height: 400px;
+    visibility: visible;
+    transition-duration: 1s;
+    /* bottom: 400px; */
+}
+
+/*-------------------- SUBSCRIBE---------------------- */
+#subscribe{
+    height: 300px;
+    width: 100%;
+    background-color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid red; */
+}
+.subheading h3{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 100;
+}
+.subpara{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+}
+.subpara p{
+    text-align: center;
+    color: #757575;
+}
+.subbox{
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    /* border-collapse: separate; */
+}
+.subbox input{
+    height: 40px;
+    width: 300px;
+}
+.subbox button{
+    margin-left: -1px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+::placeholder{
+    padding: 5px;
+}
+#views{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+}
+.viewin h3{
+    text-align: center;
+    font-weight: 100;
+}
+.view6{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.viii{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+.viii img{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.viii:hover img{
+   
+    transform: rotate(360deg) scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+
+/*------------------------------ footer-------------------------- */
+footer{
+    height: 200px;
+    background-color: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+}
+.icoo{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.socio{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.socio a{
+    color: #757575
+}
+.socio a:hover{
+    color: black;
+}
+.foolish{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.foolish li{
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.foolish a{
+    color: #757575
+}
+.foolish a:hover{
+    color: black;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright p{
+    font-size: 18px;
+    color: #757575
+}
+.copyright span{
+    color: black;
+}

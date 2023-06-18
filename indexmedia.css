@@ -1,0 +1,61 @@
+@media screen and (min-width:300px) and (max-width:480px) {
+   .shophead p{
+    font-size: 30px;
+   }
+    #trendy{
+       /* margin-bottom: 3200px; */
+       height: 7400px;
+       width: 100%;
+   }
+    .trendyboxes{
+       display: block;
+       margin: auto;
+       width: fit-content;
+   }
+   .trebox{
+       height: 750px;
+       width: 600px;
+       /* border: 1px solid red; */
+   }
+   .trebox img{
+       height:600px;
+       width: 600px;
+   }
+   .imgcontent span{
+       font-size: 50px;
+   }
+   .imgcontent p{
+       font-size: 40px;
+       margin-top: 20px;
+   }
+   .trebox:hover .treoverlay1{
+       height: 600px;
+       width: 600px;
+       text-align: center;
+   }
+   .trebox:hover .treoverlay2{
+       height: 600px;
+       width: 600px;
+   }
+   .trebox:hover .treoverlay3{
+    height: 600px;
+    width: 600px;
+    bottom: 150px;
+    }
+    .wish{
+        left: 80px;
+    }
+    .trewish{
+        height: 100px;
+        width: 100px;
+
+    }
+    .trewish i{
+        font-size: 40px;
+    }
+
+   ::placeholder{
+       font-size: 20px;
+   }
+
+}

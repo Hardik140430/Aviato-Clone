@@ -1,0 +1,53 @@
+@media screen  and (min-width:300px) and (max-width:480px){
+    .mainss{
+        height: 2000px;
+        width: 1165px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbox{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .leftbox input{
+        height: 100px;
+        width: 100%;
+    }
+    .leftbox textarea{
+        height: 200px;
+        width: 100%;
+    }
+    .leftbox button{
+        height: 100px;
+        width: 100%;
+    }
+    .rightbox{
+        /* height: 1000px; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .map{
+        height: 600px;
+        width: 100%;
+    }
+    .map iframe{
+        height: 600px;
+        width: 100%;
+    }
+    .adres i{
+        font-size: 30px;
+    }
+    .adres p{
+        font-size: 40px;
+    }
+    .sociolinks{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .sociolinks a{
+        font-size: 40px;
+    }
+}

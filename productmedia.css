@@ -1,0 +1,164 @@
+@media screen and (min-width:300px) and (max-width:480px) {
+::placeholder{
+    font-size: 20px;
+}
+.pupper{
+    /* border: 1px solid red; */
+    font-size: 30px;
+    display: flex;
+}
+.puper2{
+   margin-left: 500px;
+}
+.pmains{
+    display: block;
+    height: 2600px;
+}
+.prompic{
+    width: fit-content;
+    margin: auto;
+    /* margin-left: 0px; */
+    margin-bottom: 800px;
+    margin-top: 100px;
+}
+.propicaa img{
+    height: 1200px;
+    width: 1150px;
+    margin-left: 0px;
+}
+.afterpic{
+    width: fit-content;
+    margin: auto;
+}
+.afpic{
+    height: 210px;
+    width: 190px;
+}
+.afpic img{
+    height: 210px;
+    width: 100%;
+}
+.promdata{
+    /* margin: auto; */
+}
+.head h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.head p{
+    font-size: 40px;
+}
+.paraa{
+    width: 1100px;
+    height: 200px;
+    line-height: 1.2;
+    margin-top: 50px;
+    /* margin-bottom: 50px */
+    /* border: 1px solid rebeccapurple; */
+}
+.paraa p{
+    font-size: 30px;
+}
+.colorshade{
+    margin-top: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.colorshade p{
+    font-size: 40px;
+    margin-right: 50px;
+}
+.shade{
+    height: 100px;
+    width: 100px;
+}
+.shade:hover{
+    border: 2px solid black;
+}
+.sizes{
+    margin-top: 50px;
+    /* border:1px solid rebeccapurple; */
+}
+.sizes label{
+    font-size: 40px;
+}
+.sizes select{
+    height: 80px;
+    width: 300px;
+    font-size: 30px;
+}
+.quantity{
+    margin-top: 50px;
+}
+.lab label{
+    font-size: 40px;
+}
+.btn button{
+    height: 60px;
+    width: 100px;
+    font-size: 30px;
+}
+.categ{
+    margin-top: 50px;
+}
+.catlab h4{
+    font-size: 40px;
+}
+.catlabos{
+    font-size: 50px;
+}
+.addto{
+    margin-top: 50px;
+}
+.addto button{
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+}
+.detailsrev button{
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+}
+.paragraph span{
+    font-size: 40px;
+}
+.paragraph p{
+    font-size: 30px;
+}
+.related h1{
+    font-size: 50px;
+}
+.relboxes{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.rebox{
+    height: 700px;
+    width: 600px;
+    margin-top: 20px;
+}
+.rebox img{
+    height: 700px;
+    width: 600px;
+}
+.rebox:hover .reoverlay{
+    height: 700px;
+}
+.wish{
+    left: 80px;
+}
+.trewish{
+    height: 100px;
+    width: 100px;
+
+}
+.trewish i{
+    font-size: 40px;
+}
+.priceboxes{
+    visibility: hidden;
+}
+}

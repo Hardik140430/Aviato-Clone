@@ -1,0 +1,180 @@
+@media  screen and (min-width:300px) and (max-width:480px) {
+    ::placeholder{
+        font-size: 30px;
+    }
+    .largebox{
+        height: 9300px;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+    }
+    .bigbox{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 0px;
+        height: 7000px;
+        margin-bottom: 50px;
+    }
+    .smallbox{
+        margin-top: 50px;
+        /* border: 1px solid green; */
+        height: 5000px;
+        width: 1170px;
+        margin-left: 0px;
+
+    }
+    .heels{
+        height:800px;
+        width: 1170px;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .heels img{
+        height:800px;
+        width: 100%;
+    }
+    .bright h2{
+        font-size: 50px;
+    }
+    .coma{
+        font-size: 20px;
+    }
+    .bright{
+        margin-bottom: 400px;
+    }
+    .parag{
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    .whitepic{
+        margin-top: 150px;
+        height:800px;
+        width: 1170px;
+        margin: auto;
+    }
+    .whitepic img{
+        height:800px;
+        width: 100%;
+    }
+    .bright button{
+        height: 100px;
+        width: 500px;
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .audiosec{
+        height: 200px;
+        width: 99%;
+    }
+    .audioico{
+        height: 200px;
+        width: 200px;
+    }
+    .audioico img{
+        height: 180px;
+        width: 180px;
+    }
+    .katy a{
+        font-size: 50px;
+    }
+    .playbtn i{
+        font-size: 100px;
+    }
+    .videosec{
+        height: 600px;
+        width: 100%;
+    }
+    .videosec iframe{
+        height: 600px;
+        width: 100%;
+    }
+    /* .pagination{
+        height: 60px;
+        width: 500px;
+    } */
+    .pagination a{
+        height: 30px;
+        width: 50px;
+        font-size: 40px;
+    }
+    .notifyup{
+        height: 300px;
+        width: 99%;
+        /* border: 1px solid purple; */
+    }
+    .notifyup h3{
+        font-size: 40px;
+    }
+    .notifyup input{
+        height: 80px;
+        width: 100%;
+    }
+    .notifyup button{
+        height: 80px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .latest{
+        /* border: 1px solid greenyellow; */
+        height: 1400px;
+        width: 100%;
+    }
+    .latest h3{
+        font-size: 40px;
+    }
+    .allposts{
+        height: 1000px;
+    }
+    .postero{
+        height: 300px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .postero img{
+        height: 300px;
+        width: 400px;
+    }
+    .postrt p{
+        font-size: 40px;
+    }
+    .postrt span{
+        font-size: 40px;
+    }
+    .catago{
+        line-height: 1.8;
+    }
+    .catago h4{
+        font-size: 50px;
+    }
+    .catago p{
+        font-size: 40px;
+    }
+    .cloud h4{
+        font-size: 40px;
+    }
+    .circles{
+        height: 100px;
+        width: 300px;
+        border-radius: 50%;
+        font-size: 40px;
+    }
+    .circleses{
+        height: 100px;
+        width: 300px;
+        border-radius: 50%;
+        font-size: 40px;
+    }
+    .radiuses{
+        display: flex;
+        justify-content: space-between;
+    }
+    .radiuseses{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+
+}

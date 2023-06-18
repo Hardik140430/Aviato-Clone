@@ -1,0 +1,177 @@
+@media screen and (min-width:300px) and (max-width:480px) {
+    ::placeholder{
+        font-size: 30px;
+    }
+    #viewport{
+        /* min-width:320px; */
+        width: 1170px;
+        display: block;
+        /* border: 1px solid blue; */
+        /* flex-wrap:wrap; */
+    }
+    header{
+        height: 500px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .container{
+        display: block;
+        width: 100%;
+        margin: auto;
+        line-height: 1.7;
+    }
+    .contact{
+        width: fit-content;
+        margin: auto;
+    }
+    .contact p{
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    .brand{
+        width: fit-content;
+        margin: auto;
+    }
+    .brand h1{
+        font-size: 120px;
+    }
+    .righthead{
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cart a{
+        font-size: 50px;
+    }   
+    .search a{
+        font-size: 50px;
+    }
+    .en select{
+        font-size: 50px;
+    }
+    .carthov{
+        height: 1000px;
+        width: 1000px;
+        /* display: block; */
+        left: 50px;
+        top: 500px;
+    }
+    .cartpic{
+        height: 300px;
+        width: 300px;
+    }
+    .cartpic img{
+        height: 300px;
+        width: 300px;
+    }
+    .cartdata {
+        line-height: 1.5;
+    }
+    .cartdata span,h5{
+        font-size: 60px;
+    }
+    .cartdata p{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .spbt button{
+        height: 100px;
+        width: 400px;
+        font-size: 30px;
+    }
+    .total p,span{
+        font-size: 50px;
+    }
+    .searchdiv{
+        height: 120px;
+        width: 600px;
+        /* display: block; */
+        left: 250px;
+        top: 500px;
+        padding: 50px;
+        z-index: 2;
+    }
+    .searchdiv input{
+        height: 120px;
+        width: 600px;
+    }
+    ::placeholder{
+        font-size: 50px;
+    }
+    .en{
+        font-size: 40px;
+        border: 1px solid gray;
+    }
+    .header hr{
+        margin-bottom: 100px;
+    }
+
+    /* NAVBAR */
+    nav{
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid green; */
+        margin-top: 50px;
+        
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul li{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .shophov{
+        /* visibility: visible; */
+        height: 300px;
+        width: 500px;
+        top: 60px;
+    }
+    .shop1{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .shop1 ul li{
+        font-size: 50px;
+
+    }
+    .shop2  ul li a{
+        font-size: 55px;
+    }
+    .shop1 .pika{
+        margin-right: 100px;
+    }
+    .pagehover{
+        /* visibility: visible; */
+        height: 150px;
+        width: 600px;
+        padding: 20px;
+        top: 60px;
+        left: 450px;
+    }
+    .pagehover  ul li a{
+        font-size: 50px;
+    }
+    .blogerhov{
+        height: 150px;
+        /* visibility: visible; */
+        width: 400px;
+        padding: 20px;
+        top: 60px;
+        left: 720px;
+    }
+    .blogerhov ul li a{
+        font-size: 50px;
+    }
+    .copyright span{
+        font-size: 20px;
+    }
+    
+
+    
+    
+}
